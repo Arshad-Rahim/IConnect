@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Sparkles, Heart } from "lucide-react"
+import { Mail, Phone, MapPin, Facebook, Instagram, Sparkles, Heart } from "lucide-react"
 
 export function Footer() {
   return (
