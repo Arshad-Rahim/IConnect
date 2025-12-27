@@ -92,9 +92,9 @@ export function Footer() {
             </ul>
             <div className="flex gap-3 mt-6">
               {[
-                { icon: Facebook, href: "#", gradient: "from-blue-500 to-blue-600" },
+                { icon: Facebook, href: "https://www.facebook.com/share/1Au9SkhciW/?mibextid=wwXIfr", gradient: "from-blue-500 to-blue-600" },
                 { icon: Twitter, href: "#", gradient: "from-sky-400 to-sky-500" },
-                { icon: Instagram, href: "#", gradient: "from-pink-500 to-purple-500" },
+                { icon: Instagram, href: "https://www.instagram.com/iconnect_cochin_?igsh=bWZzZGdjbGhyZg==", gradient: "from-pink-500 to-purple-500" },
                 { icon: Linkedin, href: "#", gradient: "from-blue-600 to-blue-700" },
               ].map((social, idx) => (
                 
