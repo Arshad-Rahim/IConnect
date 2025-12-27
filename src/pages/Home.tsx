@@ -16,7 +16,6 @@ import {
   Award,
   Users,
   TrendingUp,
-  HeadphonesIcon,
 } from "lucide-react";
 
 export default function HomePage() {
