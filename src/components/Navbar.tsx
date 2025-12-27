@@ -6,7 +6,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   // Replace with your actual phone number (with country code, no spaces/dashes)
-  const phoneNumber = "+9605555117"
+  const phoneNumber = "+919605555117"
   const whatsappNumber = "9605555117" // Usually same as phone
 
   return (
