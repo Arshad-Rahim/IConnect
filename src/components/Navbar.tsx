@@ -1,6 +1,5 @@
 import { useState } from "react"
-import { Menu, X, Sparkles, Phone, MessageCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Menu, X, Phone, MessageCircle } from "lucide-react"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -75,12 +74,12 @@ export function Navbar() {
                 WhatsApp
               </a>
 
-              <a href="/booking">
+              {/* <a href="/booking">
                 <Button className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                   <Sparkles className="w-4 h-4 mr-2" />
                   Book Service
                 </Button>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -153,12 +152,12 @@ export function Navbar() {
                   Chat on WhatsApp
                 </a>
 
-                <a href="/booking" onClick={() => setIsOpen(false)}>
+                {/* <a href="/booking" onClick={() => setIsOpen(false)}>
                   <Button className="w-full bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 shadow-lg">
                     <Sparkles className="w-4 h-4 mr-2" />
                     Book Service
                   </Button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

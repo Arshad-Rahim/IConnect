@@ -33,7 +33,7 @@ export function Footer() {
                 { name: "Services", href: "/services" },
                 { name: "About Us", href: "/about" },
                 { name: "Contact", href: "/contact" },
-                { name: "Book Service", href: "/booking" },
+                // { name: "Book Service", href: "/booking" },
               ].map((link) => (
                 <li key={link.name}>
                   <a 

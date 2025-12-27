@@ -325,7 +325,7 @@ export default function ServicesPage() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <a href="/booking">
+              {/* <a href="/booking">
                 <Button 
                   size="lg" 
                   className="group bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
@@ -333,7 +333,7 @@ export default function ServicesPage() {
                   Book Service
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
-              </a>
+              </a> */}
               <a href="/contact">
                 <Button 
                   size="lg" 
