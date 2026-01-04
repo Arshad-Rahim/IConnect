@@ -1,24 +1,30 @@
-import { useState } from "react"
-import { Menu, X, Phone, MessageCircle } from "lucide-react"
+import { useState } from "react";
+import { Menu, X, Phone, MessageCircle } from "lucide-react";
+import logo from "../assets/iconnect logo.svg";
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   // Replace with your actual phone number (with country code, no spaces/dashes)
-  const phoneNumber = "+919605555117"
-  const whatsappNumber = "9605555117" // Usually same as phone
+  const phoneNumber = "+919605555117";
+  const whatsappNumber = "9605555117"; // Usually same as phone
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-lg border-b border-border shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
-              <span className="text-primary-foreground font-bold text-xl">iC</span>
+            <div className="w-12 h-12 bg-background rounded-xl flex items-center justify-center shadow-lg ring-1 ring-border/60 group-hover:shadow-xl group-hover:scale-105 transition-all duration-300 overflow-hidden">
+              <img
+                src={logo}
+                alt="iConnect"
+                className="w-full h-full object-cover scale-[1.35] origin-center"
+              />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+
+            {/* <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               iConnect
-            </span>
+            </span> */}
           </a>
 
           {/* Desktop Navigation + Action Buttons */}
@@ -164,5 +170,5 @@ export function Navbar() {
         )}
       </div>
     </nav>
-  )
+  );
 }
